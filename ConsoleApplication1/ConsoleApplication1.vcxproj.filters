@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="ConsoleApplication1.cpp">
+    <ClCompile Include="Solution.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
     <ClCompile Include="F:\data\glew-2.1.0\src\glew.c" />

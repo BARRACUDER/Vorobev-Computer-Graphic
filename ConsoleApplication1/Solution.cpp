@@ -6,8 +6,12 @@ int main()
 	if (!glfwInit()) {
 		return 1;
 	}
-	glfwWindowHint(GLFW_CONTEXT_VERSION_MAJOR, 1);
-	glfwWindowHint(GLFW_CONTEXT_VERSION_MINOR, 0);
+	glfwWindowHint(GLFW_CONTEXT_VERSION_MAJOR, 4);
+	glfwWindowHint(GLFW_CONTEXT_VERSION_MINOR, 6);
+    glfwWindowHint(GLFW_OPENGL_FORWARD_COMPAT, GL_TRUE);
+    glfwWindowHint(GLFW_OPENGL_PROFILE, GLFW_OPENGL_CORE_PROFILE);
+    GLuint VBO, VAO, EBO;
+    glGenVertexArrays(1, &VAO);
 	GLFWwindow* window = glfwCreateWindow(512, 512, "MainWindow", NULL, NULL);
 	if (!window) {
 		glfwTerminate();
