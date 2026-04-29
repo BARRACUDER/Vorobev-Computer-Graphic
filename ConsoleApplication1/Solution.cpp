@@ -14,7 +14,7 @@ int main()
     glGenVertexArrays(1, &VAO);
     glGenBuffers(1, &VBO);
     glGenBuffers(1, &EBO);
-    glBindVertexArray(VAO);
+    glBindVertexArray(VAO); //
 	GLFWwindow* window = glfwCreateWindow(512, 512, "MainWindow", NULL, NULL);
 	if (!window) {
 		glfwTerminate();
