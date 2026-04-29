@@ -12,6 +12,9 @@ int main()
     glfwWindowHint(GLFW_OPENGL_PROFILE, GLFW_OPENGL_CORE_PROFILE);
     GLuint VBO, VAO, EBO;
     glGenVertexArrays(1, &VAO);
+    glGenBuffers(1, &VBO);
+    glGenBuffers(1, &EBO);
+    glBindVertexArray(VAO);
 	GLFWwindow* window = glfwCreateWindow(512, 512, "MainWindow", NULL, NULL);
 	if (!window) {
 		glfwTerminate();
