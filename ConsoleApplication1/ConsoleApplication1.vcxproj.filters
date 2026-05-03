@@ -19,5 +19,17 @@
       <Filter>Исходные файлы</Filter>
     </ClCompile>
     <ClCompile Include="F:\data\glew-2.1.0\src\glew.c" />
+    <ClCompile Include="Shader_loader.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Shader_loader.h">
+      <Filter>Исходные файлы</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="vertex.glsl" />
+    <None Include="fragment.glsl" />
   </ItemGroup>
 </Project>

@@ -130,8 +130,16 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Shader_loader.cpp" />
     <ClCompile Include="Solution.cpp" />
     <ClCompile Include="F:\data\glew-2.1.0\src\glew.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Shader_loader.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="fragment.glsl" />
+    <None Include="vertex.glsl" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
